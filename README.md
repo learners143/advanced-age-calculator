@@ -26,3 +26,16 @@ const { calculateAge } = require('advance-age-calculator');
 ```bash
 import { calculateAge } from 'advance-age-calculator';
 ```
+
+### After importing 
+```
+try {
+  const birthDate = 'YYYY-MM-DD';
+  const age = calculateAge(birthDate);
+  console.log(age)
+} catch (error) {
+  console.error(error.message);
+}
+```
+
+

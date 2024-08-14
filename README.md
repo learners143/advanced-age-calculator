@@ -16,6 +16,11 @@ To install the package, use npm:
 ```bash
 npm install advance-age-calculator
 ```
+## Or,
+```
+<script src="https://unpkg.com/advance-age-calculator@1.1.1/dist/index.js"></script>
+```
+
 ## Uses
 
 ```bash
